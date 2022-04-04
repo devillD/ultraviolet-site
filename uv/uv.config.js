@@ -1,7 +1,7 @@
 self.__uv$config = {
     prefix: '/-/',
     bare: '/bare/',
-    encodeUrl: Ultraviolet.codec.utf.encode,
+    encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
     bundle: '/uv/uv.bundle.js',
